@@ -15,9 +15,9 @@ namespace ProjetoRPG.src.Entities
 
          public string Attack(string Tipo, int Bonus){
             if(Tipo == "Noite"){
-                return this.Name + " Realizou um Ataque com Magia Negra! Dano extra: " + Bonus;
+                return this.Name + " Realizou um Ataque com Magia Negra! Dano: " + Bonus;
             }else {
-                 return this.Name + " teve seu ataque reduzido! ";
+                 return this.Name + " Realizou um Ataque com Cajado! Dano: " + Bonus;
             }
         }
     }

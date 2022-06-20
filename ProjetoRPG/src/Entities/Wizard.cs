@@ -15,11 +15,11 @@ namespace ProjetoRPG.src.Entities
 
         public string Attack(int Bonus){
 
-          if(Bonus > 6){
+          if(Bonus > 20){
 
-            return this.Name + " Realizou um Ataque com Super Magia! Dano extra: " + Bonus;
+            return this.Name + " Realizou um Ataque com Super Magia! Dano: " + Bonus;
           }else{
-                return this.Name + " Realizou um Ataque com Magia Comum! Dano extra: " + Bonus;
+                return this.Name + " Realizou um Ataque com Magia Comum! Dano: " + Bonus;
           }
 
 

@@ -15,9 +15,9 @@ namespace ProjetoRPG.src.Entities
 
         public string Attack(string Tipo, int Bonus){
             if(Tipo == "Noite"){
-                return this.Name + " Realizou um Ataque furtivo! Dano extra: " + Bonus;
+                return this.Name + " Realizou um Ataque furtivo! Dano: " + Bonus;
             }else {
-                 return this.Name + " Realizou um Ataque comum, sem dano extra!";
+                 return this.Name + " Realizou um Ataque comum! Dano: " + Bonus;
             }
         }
 

@@ -12,9 +12,16 @@ namespace ProjetoRPG.src.Entities
             return this.Name + " Atacou com espada! ";
         }
 
-        public string Attack(int Bonus){
-            return this.Name + " Bonus de ataque com espada: " + Bonus;
-        }   
+         public string Attack(int Bonus){
+
+          if(Bonus > 40){
+
+            return this.Name + " Realizou um Ataque Crítico com Espada! Dano: " + Bonus;
+          }else{
+                return this.Name + " Realizou um Ataque com Espada! Dano: " + Bonus;
+          }
+
+        }
 
 
 
